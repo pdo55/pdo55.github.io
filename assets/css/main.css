@@ -88,10 +88,28 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
+	/* background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
+ 	background-blend-mode: screen; */
+	/* background-color: #090947;
+	background-image: linear-gradient(315deg, #090947 0%, #5a585a 74%); */
+	/* background-color: #7f5a83;
+	background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%); */
+	/* background-color: #c2b6b6;
+	background-image: linear-gradient(315deg, #c2b6b6 0%, #576574 74%); */
+	
+
 	body {
-		background: linear-gradient(180deg, transparent, rgba(255, 255, 255, 0.05)) repeat-y, linear-gradient(180deg, transparent, rgba(255, 250, 250, 0.05)) repeat-y, linear-gradient(180deg, transparent, rgba(255, 250, 250, 0.05)) repeat-y, linear-gradient(180deg, transparent, rgba(255, 250, 250, 0.05)) repeat-y, linear-gradient(180deg, transparent, rgba(255, 250, 250, 0.05)) repeat-y, linear-gradient(120deg, #144a5a 0%, #691d4f 100%) no-repeat;
-		background-position: 10%, 30%, 50%, 70%, 90%, 0  !important;
-		background-size: 2px auto, 2px auto, 2px auto, 2px auto, 2px auto, 100% auto !important; 
+		background: linear-gradient(180deg, transparent, rgba(128, 128, 128, 0.2)) repeat-y,
+					linear-gradient(180deg, transparent, rgba(128, 128, 128, 0.2)) repeat-y,
+					linear-gradient(180deg, transparent, rgba(128, 128, 128, 0.2)) repeat-y,
+					/* linear-gradient(180deg, transparent, grey) repeat-y,
+					linear-gradient(180deg, transparent, grey) repeat-y, */
+					linear-gradient(315deg, #090947 0%, #5a585a 74%) no-repeat;
+					/* linear-gradient(120deg, #144a5a 0%, #691d4f 100%) no-repeat; */
+		/* background-position: 10%, 30%, 50%, 70%, 90%, 0  !important; */
+		/* background-size: 2px auto, 2px auto, 2px auto, 2px auto, 2px auto, 100% auto !important;  */
+		background-position: 10%, 50%, 90%, 0 !important;
+		background-size: 2px auto, 2px auto, 2px auto, 100% auto !important;
 		background-attachment: fixed;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 18pt;
