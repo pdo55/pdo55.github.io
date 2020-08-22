@@ -969,6 +969,11 @@ a {
     background-size: cover;
 }
 
+#p-bear-maps {
+    background: url("res/projects/bearmaps/bearmaps.gif");
+    background-size: cover;
+}
+
 @keyframes fadeInUp {
     from {
         opacity: 0;

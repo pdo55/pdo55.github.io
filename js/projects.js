@@ -10,6 +10,18 @@ var projectShootingAI =
     '</a>' +
     '</div>';
 
+var projectBearMaps =
+    '<div class="project p-dark" id="p-bear-maps">' +
+    '<a class="overlay" href="http://bearmaps-from-luke.herokuapp.com/map.html" target="_blank">' +
+    '<div class="content vertical-center">' +
+    '<h4>Developer</h4>' +
+    '<h1>Berkeley Map</h1>' +
+    '<p>Accurate map that supports path finding and location finding of Oakland, CA area</p>' +
+    '<button>Explore <span class="arrow"></span></button>' +
+    '</div>' +
+    '</a>' +
+    '</div>';
+
 // var eMotionSmartJournal =
 //     '<div class="project p-dark" id="p-e-motion-smart-journal">' +
 //     '<a class="overlay" href="project/e-motion-smart-journal.html" target="_blank">' +
@@ -26,6 +38,7 @@ var projectShootingAI =
 
 var featured = [
     projectShootingAI,
+    projectBearMaps,
 ];
 
 // var all = [
