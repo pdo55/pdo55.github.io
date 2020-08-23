@@ -22,6 +22,18 @@ var projectBearMaps =
     '</a>' +
     '</div>';
 
+var projectAnts = 
+    '<div class="project p-light" id="p-ants">' +
+    '<a class="overlay" href="https://github.com/pdo55/ants" target="_blank">' +
+    '<div class="content vertical-center">' +
+    '<h4>Developer</h4>' +
+    '<h1>Ants Vs Somebees</h1>' +
+    '<p>Defend your colony by building ants army and defeat the bees</p>' +
+    '<button>Explore <span class="arrow"></span></button>' +
+    '</div>' +
+    '</a>' +
+    '</div>';
+
 // var eMotionSmartJournal =
 //     '<div class="project p-dark" id="p-e-motion-smart-journal">' +
 //     '<a class="overlay" href="project/e-motion-smart-journal.html" target="_blank">' +
@@ -38,6 +50,7 @@ var projectBearMaps =
 
 var featured = [
     projectShootingAI,
+    projectAnts,
     projectBearMaps,
 ];
 

@@ -974,6 +974,11 @@ a {
     background-size: cover;
 }
 
+#p-ants {
+    background: url("res/projects/ants/ants.gif");
+    background-size: cover;
+}
+
 @keyframes fadeInUp {
     from {
         opacity: 0;
