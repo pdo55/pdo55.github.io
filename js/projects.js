@@ -24,11 +24,23 @@ var projectBearMaps =
 
 var projectAnts = 
     '<div class="project p-light" id="p-ants">' +
-    '<a class="overlay" href="https://github.com/pdo55/ants" target="_blank">' +
+    '<a class="overlay" href="http://3.101.24.192:8000/gui.html" target="_blank">' +
     '<div class="content vertical-center">' +
     '<h4>Developer</h4>' +
     '<h1>Ants Vs Somebees</h1>' +
     '<p>Defend your colony by building ants army and defeat the bees</p>' +
+    '<button>Explore <span class="arrow"></span></button>' +
+    '</div>' +
+    '</a>' +
+    '</div>';
+
+var projectBlog =
+    '<div class="project p-dark" id="p-blog">' +
+    '<a class="overlay" href="http://3.101.24.192:3000/login" target="_blank">' +
+    '<div class="content vertical-center">' +
+    '<h4>Developer</h4>' +
+    '<h1>Miniature Wordpress</h1>' +
+    '<p>Take notes for your tasks or share your thoughts about any topics with my miniature blog</p>' +
     '<button>Explore <span class="arrow"></span></button>' +
     '</div>' +
     '</a>' +
@@ -52,6 +64,8 @@ var featured = [
     projectShootingAI,
     projectAnts,
     projectBearMaps,
+    projectBlog,
+
 ];
 
 // var all = [

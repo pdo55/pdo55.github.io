@@ -979,6 +979,11 @@ a {
     background-size: cover;
 }
 
+#p-blog {
+    background: url("res/projects/blog/blog.gif");
+    background-size: cover;
+}
+
 @keyframes fadeInUp {
     from {
         opacity: 0;
