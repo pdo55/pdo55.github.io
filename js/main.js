@@ -16,14 +16,10 @@ function loadProjects(loadTarget) {
 			$('#filter-all').addClass('active');
 			break;
 
-		case 'frontend':
-			console.log("frontend");
-			renderProjects(frontend);
-			break;
 
-		case 'datascience':
-			console.log("datascience");
-			renderProjects(datascience);
+		case 'backend':
+			console.log("backend");
+			renderProjects(backend);
 			break;
 
 		case 'game':

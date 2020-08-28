@@ -65,7 +65,6 @@ var featured = [
     projectAnts,
     projectBearMaps,
     projectBlog,
-
 ];
 
 // var all = [
@@ -116,12 +115,12 @@ var featured = [
 
 // ];
 
-// var game = [
-//     projectColourGame,
-//     projectApexTowerDefense,
-//     projectBeatVisualizer,
-//     ColourMatch,
-//     projectSpaceInvaders,
-//     projectAsteroids,
-//     projectPixelShooter
-// ];
+var backend = [
+    projectBearMaps,
+    projectBlog
+]
+
+var game = [
+    projectShootingAI,
+    projectAnts
+];

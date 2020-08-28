@@ -967,6 +967,7 @@ a {
 #p-shooting-ai {
     background: url("res/projects/shooting-ai/shooting-ai.gif") no-repeat center center;
     background-size: cover;
+    opacity: 0; 
 }
 
 #p-bear-maps {
